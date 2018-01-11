@@ -94,8 +94,7 @@ const mapStateToProps = (state) => {
         selectedBusiness: state.selectedBusiness,
         isFetching: state.isFetching,
         isGoingBack: state.isGoingBack,
-        backToList: state.backToList,
-        goBack: state.goBack
+        backToList: state.backToList
     };
 };
 
